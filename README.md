@@ -5,7 +5,7 @@ Useage:
 ```
 mRecyclerView.addItemDecoration(new DividerDecoration(getActivity(),
                 DividerDecoration.DividerType.GRADIENT,
-                R.color.navigation_list_divider_color));
+                getResources().getColor(R.color.navigation_list_divider_color));
 ```
 
 Note: a lot can be improved this is just a simple implementation sufficient for my needs. There are many changes that could be done to make it more robust and flexible. 
